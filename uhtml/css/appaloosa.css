@@ -1,160 +1,43 @@
 /*Appaloosa (Report) - publication style: Version: 6d7fb76 15 April 2023 14:44:44 Repo link: https://github.com/a-machine/appoloosa-report-style/blob/main/vivlio/style/css/appaloosa.css*/
 
-/*body*/
+/*Headers gaffm #1*/
 
 @font-face {
-  font-family: "Inter";
-  font-weight: 400;
+  font-family: "AgletSans";
+  font-weight: 600;
   font-style: normal;
-  src: local('Inter Regular'), local('Inter-Regular'), url(media/Inter-Regular.ttf) format('truetype');
-  }
-  
-  @font-face {
-      font-family: "Inter";
-      font-weight: 400;
-      font-style: italic;
-      src: local('Inter Italic'), local('Inter-Italic'), url(media/Inter-Italic.ttf) format('truetype');
-  }
-  
-  @font-face {
-      font-family: "Inter";
-      font-weight: bold;
-      font-style: normal;
-      src: local('Inter Bold'), local('Inter-Bold'), url(media/Inter-Bold.ttf) format('truetype');
-  }
-  
-  @font-face {
-      font-family: "Inter";
-      font-weight: bold;
-      font-style: italic;
-      src: local('Inter Bold Italic'), local('Inter-BoldItalic'), url(media/Inter-BoldItalic.ttf) format('truetype');
-  }
-  
-  @font-face {
-      font-family: "Inter";
-      font-weight: 500;
-      font-style: normal;
-      src: local('Inter Medium'), local('Inter-Medium'), url(media/Inter-Medium.ttf) format('truetype');
-  }
-  
-  @font-face {
-      font-family: "Inter";
-      font-weight: 500;
-      font-style: italic;
-      src: local('Inter Medium Italic'), local('Inter-MediumItalic'), url(media/Inter-MediumItalic.ttf) format('truetype');
-  }
-  
-  @font-face {
-      font-family: "Inter";
-      font-weight: 600;
-      font-style: normal;
-      src: local('Inter SemiBold'), local('Inter-SemiBold'), url(media/Inter-SemiBold.ttf) format('truetype');
-  }
-  
-  @font-face {
-      font-family: "Inter";
-      font-weight: 600;
-      font-style: italic;
-      src: local('Inter SemiBold Italic'), local('Inter-SemiBoldItalic'), url(media/Inter-SemiBoldItalic.ttf) format('truetype');
-  }
-  
-  @font-face {
-      font-family: "Inter";
-      font-weight: 300;
-      font-style: normal;
-      src: local('Inter Light'), local('Inter-Light'), url(media/Inter-Light.ttf) format('truetype');
-  }
-  
-  @font-face {
-      font-family: "Inter";
-      font-weight: 300;
-      font-style: italic;
-      src: local('Inter Light Italic'), local('Inter-LightItalic'), url(media/Inter-LightItalic.ttf) format('truetype');
-  }
-  
-  @font-face {
-      font-family: "Inter";
-      font-weight: 200;
-      font-style: normal;
-      src: local('Inter ExtraLight'), local('Inter-ExtraLight'), url(media/Inter-ExtraLight.ttf) format('truetype');
-  }
-  
-  @font-face {
-      font-family: "Inter";
-      font-weight: 200;
-      font-style: italic;
-      src: local('Inter ExtraLight Italic'), local('Inter-ExtraLightItalic'), url(media/Inter-ExtraLightItalic.ttf) format('truetype');
-  }
+  src: local('AgletSans Regular'), local('AgletSans-Regular'), url(media/AgletSans-Regular.otf) format('opentype');
+}
 
-    /*Headers ALT #1*/
-  
-    @font-face {
-      font-family: "Arvo";
-      font-weight: bold;
-      font-style: normal;
-      src: local('Arvo Bold'), local('Arvo-Bold'), url(media/Arvo-Bold.ttf) format('truetype');
-      }
-    
-      @font-face {
-        font-family: "Arvo";
-        font-weight: 600;
-        font-style: normal;
-        src: local('Arvo Bold'), local('Arvo-Bold'), url(media/Arvo-Bold.ttf) format('truetype');
-    }
-    
-    @font-face {
-        font-family: "Arvo";
-        font-weight: 500;
-        font-style: normal;
-        src: local('Arvo Bold'), local('Arvo-Bold'), url(media/Arvo-Bold.ttf) format('truetype');
-    }
-    
-    @font-face {
-        font-family: "Arvo";
-        font-weight: 400;
-        font-style: normal;
-        src: local('Arvo Regular'), local('Arvo-Regular'), url(media/Arvo-Regular.ttf) format('truetype');
-    }
-  
-  /*Secondary headers*/
-  
-  @font-face {
-      font-family: "Roboto Slab";
-      font-weight: 600;
-      font-style: normal;
-      src: local('Roboto Slab SemiBold'), local('RobotoSlab-SemiBold'), url(media/RobotoSlab-SemiBold.ttf) format('truetype');
-  }
-  
-  @font-face {
-      font-family: "Roboto Slab";
-      font-weight: 500;
-      font-style: normal;
-      src: local('Roboto Slab Medium'), local('RobotoSlab-Medium'), url(media/RobotoSlab-Medium.ttf) format('truetype');
-  }
-  
-  @font-face {
-      font-family: "Roboto Slab";
-      font-weight: 400;
-      font-style: normal;
-      src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'), url(media/RobotoSlab-Regular.ttf) format('truetype');
-  }
-  
-  @font-face {
-      font-family: "Roboto Slab";
-      font-weight: 300;
-      font-style: normal;
-      src: local('Roboto Slab Light'), local('RobotoSlab-Light'), url(media/RobotoSlab-Light.ttf) format('truetype');
-  }
-  
-  @font-face {
-      font-family: "Roboto Slab";
-      font-weight: 200;
-      font-style: normal;
-      src: local('Roboto Slab ExtraLight'), local('RobotoSlab-ExtraLight'), url(media/RobotoSlab-ExtraLight.ttf) format('truetype');
-  }
+/*Headers gaffm h1, h2, article title */
+
+@font-face {
+  font-family: "AgletSans";
+  font-weight: 800;
+  font-style: normal;
+  src: local('AgletSans SemiBold'), local('AgletSans-SemiBold'), url(media/AgletSans-SemiBold.otf) format('opentype');
+}
+
+/*Headers gaffm h3, h4, h5, h6 */
+
+@font-face {
+  font-family: "FSMe";
+  font-weight: 800;
+  font-style: normal;
+  src: local('FSMe Bold'), local('FSMe-Bold'), url(media/FSMe-Bold.otf) format('opentype');
+}
+
+/*body gaffm*/
+
+@font-face {
+  font-family: "FSMe";
+  font-weight: 600;
+  font-style: normal;
+  src: local('FSMe'), local('FSMe'), url(media/FSMe.otf) format('opentype');
+}
   
   *{
-    font-family: "Inter", sans-serif;
+    font-family: "FSMe", sans-serif;
   }
 
 /*Page size*/
@@ -196,8 +79,8 @@
     }
     @bottom-left {
       content: counter(page) " "" | "" "  env(doc-title);
-      font-family: "Inter", sans-serif;
-      font-weight: 400;
+      font-family: "FSMe", sans-serif;
+      font-weight: 600;
       font-size: 12px;
       line-height: 1.4;
       color: #000000;
@@ -236,8 +119,8 @@
     }
     @bottom-right {
       content: string(chapter-title, start) " "" | "" " counter(page);
-      font-family: "Inter", sans-serif;
-      font-weight: 400;
+      font-family: "FSMe", sans-serif;
+      font-weight: 600;
       font-size: 12px;
       line-height: 1.4;
       color: #000;
@@ -354,12 +237,12 @@ body {
     vertical-align: baseline;
   }
   .copyrightpage p {
-    font-family: "Inter", sans-serif;
+    font-family: "FSMe", sans-serif;
     color: #000;
   }
   nav::before {
     content: "Contents";
-    font-family: "Arvo", serif;
+    font-family: "AgletSans", sans-serif;
     font-size: 55px;
     color: #ee717f;
     font-weight: 600;
@@ -369,7 +252,7 @@ body {
     break-before: always;
     page-break-before: always;
     width: 80%;
-    font-family: "Roboto Slab", sans-serif;
+    font-family: "FSMe", sans-serif;
   }
   nav ol {
     margin-top: 2em;
@@ -441,7 +324,7 @@ div.titlepage {
 
 .booktitle {
     /*text-align: center;*/
-    font-family: "Arvo", serif;
+    font-family: "AgletSans", sans-serif;
     font-size: 55px;
     color:#111111;
     page-break-inside: avoid;
@@ -451,7 +334,7 @@ div.titlepage {
     white-space: pre-line;
     letter-spacing: 0pt;
     word-spacing: 1px;
-    font-weight: 600;
+    font-weight: 800;
     max-width: 100%;
     margin: 0;
     text-align: left;
@@ -473,7 +356,7 @@ div.titlepage {
   }
   
 h2.booksubtitle {
-    font-family: "Roboto Slab", sans-serif;
+    font-family: "AgletSans", sans-serif;
     font-size: 30px;
     font-weight: 400!important;
     color: #0a0a0a;
@@ -482,7 +365,7 @@ h2.booksubtitle {
   }
 
 h3.bookauthor {
-    font-family: "Roboto Slab", sans-serif;
+    font-family: "AgletSans", sans-serif;
     font-size: 20px;
     color: #0a0a0a;
     padding-top: 2em;
@@ -491,7 +374,7 @@ h3.bookauthor {
   }
 
 h4.bookversion {
-    font-family: "Roboto Slab", sans-serif;
+    font-family: "AgletSans", sans-serif;
     font-size: 12px;
     color: #0a0a0a;
     font-weight: 400!important;
@@ -522,7 +405,7 @@ h1.part:before {
     page-break-before: always!important;
   }
 .article-title {
-    font-family: "Arvo", serif;
+    font-family: "AgletSans", sans-serif;
     string-set: chapter-title content(text);
     font-size: 55px;
     color:#ee717f;
@@ -535,7 +418,7 @@ h1.part:before {
     white-space: pre-line;
     letter-spacing: 0pt;
     word-spacing: 1px;
-    font-weight: 600;
+    font-weight: 800;
     max-width: 70%;
   }
 
@@ -587,7 +470,7 @@ h1.part:before {
 /*Literaturverzeichnis*/
 
 h1.article-bibliography-header {
-    font-family: "Arvo", serif;
+    font-family: "AgletSans", sans-serif;
     font-size: 1.395rem;
     text-align: left;
     margin-bottom: 0;
@@ -607,7 +490,7 @@ h1.article-bibliography-header {
   }
 
 .csl-entry {
-    font-family: "Inter", sans-serif;
+    font-family: "FSMe", sans-serif;
     font-weight: 300;
     font-size:  0.8837rem;
     line-height: 1.37;
@@ -687,7 +570,7 @@ h1.article-bibliography-header {
   table li .bold,
   table li .Bold,
   table li b {
-    font-family: "Inter", sans-serif;
+    font-family: "FSMe", sans-serif;
     font-weight: 700;
   }
   
@@ -717,7 +600,7 @@ h1.article-bibliography-header {
   }
   
   var {
-    font-family: "Inter", sans-serif;
+    font-family: "FSMe", sans-serif;
     font-weight: normal;
   }
   
@@ -744,7 +627,7 @@ h1.article-bibliography-header {
     display: block;
     width: 95%;
     position: relative;
-    font-family: "Inter", sans-serif;
+    font-family: "FSMe", sans-serif;
     font-size:  11pt; /* 1.023rem */
     vertical-align: baseline;
     margin-top: 12pt;
@@ -782,7 +665,7 @@ h1.article-bibliography-header {
   blockquote  p.att { text-align: right; }
   
   h2, h2 strong {
-  font-family: "Arvo", serif;
+  font-family: "AgletSans", sans-serif;
   margin-top: 1.5em;
   color:#ee717f; /*rgb(25,43,83);*/
   }
@@ -790,13 +673,13 @@ h1.article-bibliography-header {
   h4, h4 strong,
   h5,
   h6 {
-    font-family: "Arvo", serif;
+    font-family: "FSMe", sans-serif;
     margin-top: 1.5em;
     color: #000; /*rgb(25,43,83);*/
   }
   
   h1 {
-    font-family: "Arvo", serif;
+    font-family: "AgletSans", sans-serif;
     font-size: 55px; /* 2.233rem */
     color:#111111; /*rgb(25,43,83);*/
     margin-bottom: 1em;
@@ -808,16 +691,16 @@ h1.article-bibliography-header {
     white-space: pre-line;
     letter-spacing: 0pt;
     word-spacing: 1px;
-    font-weight: 600
+    font-weight: 800
   }
   
-  h1 strong {font-weight: 400;}
+  h1 strong {font-weight: 800;}
   
   h2 {
     font-size: 1.395rem; 
-    font-family: "Arvo", serif;
+    font-family: "AgletSans", sans-serif;
     text-transform: none;
-    font-weight: 600;
+    font-weight: 800;
     /*margin: 1.5em 0 1.2em 0;*/
     margin-top: 20pt;
     margin-bottom: 9pt;
@@ -827,27 +710,27 @@ h1.article-bibliography-header {
   
   h3 {
     font-size: 1.18rem; /* 1.209rem */
-    font-family: "Arvo", serif;
+    font-family: "FSMe", sans-serif;
     margin-top: 17pt;
     page-break-inside: avoid;
     page-break-after: avoid;
-    font-weight: 600;
+    font-weight: 800;
     margin-bottom: 9pt;
   }
   
   h4 {
     font-size: 1.01rem; /* 1.023rem */
-    font-family: "Arvo", serif;
+    font-family: "FSMe", sans-serif;
     margin-top: 15pt;
     margin-bottom: 9pt;
-    font-weight: 600;
+    font-weight: 800;
     page-break-inside: avoid;
     page-break-after: avoid;
   }
   
   h5 {
-    font-family: "Arvo", serif;
-    font-weight: 500;
+    font-family: "FSMe", sans-serif;
+    font-weight: 800;
     font-size: 0.97rem; /* 0.930rem*/
     margin-top: 18px;
     margin-bottom: 5pt;
@@ -856,8 +739,8 @@ h1.article-bibliography-header {
   }
   
   h6 {
-    font-family: "Arvo", serif;
-    font-weight: 400;
+    font-family: "FSMe", sans-serif;
+    font-weight: 800;
     font-size: 0.89rem;
     margin-top: 20pt;
     margin-bottom: 5pt;
@@ -880,7 +763,7 @@ h1.article-bibliography-header {
   .article-body a.fn {
     left: 0.2em;
     border-bottom: none;
-    font-family: "Inter", sans-serif;
+    font-family: "FSMe", sans-serif;
   }
   .footnotes ol li p a {
     text-wrap: word-break;
@@ -892,7 +775,7 @@ h1.article-bibliography-header {
     font-weight: 400;
     font-size: 80%;
     margin-left: 1.3pc;
-    font-family: "Inter", sans-serif;
+    font-family: "FSMe", sans-serif;
   }*/
   .fnlist p {
     text-indent: 0;
@@ -900,7 +783,7 @@ h1.article-bibliography-header {
     line-height: 1.3;
     margin: 0.2em 0 0.5em 0;
     font-size: 12px;/*0.76rem*/
-    font-family: "Inter", sans-serif;
+    font-family: "FSMe", sans-serif;
     text-align: left;
   }
   
@@ -910,7 +793,7 @@ h1.article-bibliography-header {
     color: #000;
     text-indent: 0;
     font-size: 0.7rem;
-    font-family: "Inter", sans-serif;
+    font-family: "FSMe", sans-serif;
   }
   
   .footnote-content span {
@@ -939,7 +822,7 @@ h1.article-bibliography-header {
   }
   
   figure figcaption {
-    font-family: "Inter", sans-serif;
+    font-family: "FSMe", sans-serif;
     margin: 8px 0;
     font-weight: 300;
     font-size:  0.82rem;
@@ -1031,7 +914,7 @@ h1.article-bibliography-header {
   table {
     margin: 0 auto;
     width: 99% !important;
-    font-family: "Inter", sans-serif;
+    font-family: "FSMe", sans-serif;
     background-size: 8pt;
     page-break-inside: avoid;
     margin-top: 9pt;
@@ -1096,7 +979,7 @@ h1.article-bibliography-header {
     font-weight: 400;
     line-height: 1.37;
     margin: 0;
-    font-family: "Inter", sans-serif;
+    font-family: "FSMe", sans-serif;
     text-align: left;
     text-indent: 0;
      /*list-style-position: outside;*/
@@ -1289,7 +1172,7 @@ h1.article-bibliography-header {
   /*section[role=doc-endnotes]:first-of-type::before {
       content: 'Footnotes';
       display: block;
-      font-family: "Inter", sans-serif;
+      font-family: "FSMe", sans-serif;
       font-size: 1.395rem;
       color:#111111;
       font-weight: 600;
