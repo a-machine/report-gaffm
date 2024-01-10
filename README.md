@@ -52,6 +52,8 @@ New palette - CMYK as RGB straight conversion - https://coolors.co/ff52a3-0ff5f7
 
 Visual approximation - screen colour picker - brown at 20% [[https://coolors.co/eb7f88-30b7d5-a2978c](https://coolors.co/eb7f88-00b8ec-ecece6)](https://coolors.co/ee717f-00b8ec-ecece6)
 
+More colours - https://coolors.co/ee717f-00b8ec-ecece6-63c7f1-dad8ce
+
     #FA7268 orange
     #fab6b2 orange (lighter for blockquote border)
     #F5F4EF creme grey
