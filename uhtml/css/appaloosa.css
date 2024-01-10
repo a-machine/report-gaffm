@@ -169,11 +169,11 @@
   
   @page: first {
     size: 210mm 297mm;
-    background-image: linear-gradient(#F5F4EF,#F5F4EF 73%,#56ACF6, #9dcef8 27%);
+    background-image: linear-gradient(#ecece6,#ecece6 73%,#00b8ec, #63c7f1 27%);
     background-size: 210mm 297mm;
     display: flex;
     margin-top: 30mm;
-    color: #FA7268;
+    color: #ee717f;
     page-break-after: always;
     @bottom-left { content: normal; }
     @bottom-center { content: normal; }
@@ -203,7 +203,7 @@
       color: #000000;
       letter-spacing: 0.1pt;
       /*word-spacing: 1px;*/
-      background-image: linear-gradient(45deg, #FA7268,#FA7268);
+      background-image: linear-gradient(45deg, #ee717f,#ee717f);
       background-repeat: no-repeat;
       background-size: 80px 9px;
       background-position: 0 55%;
@@ -242,7 +242,7 @@
       line-height: 1.4;
       color: #000;
       letter-spacing: 0.1pt;
-      background-image: linear-gradient(45deg, #FA7268,#FA7268);
+      background-image: linear-gradient(45deg, #ee717f,#ee717f);
       background-repeat: no-repeat;
       background-size: 80px 9px;
       background-position: 100% 55%;
@@ -361,7 +361,7 @@ body {
     content: "Contents";
     font-family: "Arvo", serif;
     font-size: 55px;
-    color: #FA7268;
+    color: #ee717f;
     font-weight: 600;
   }
   nav {
@@ -429,11 +429,11 @@ body {
 
 div.titlepage {
   height: 100vh;
-  background-image: url("media/qr.png");
+  background-image: url("media/GAF-Logo-30_CMYK-P709_lachs.png");
   /*-webkit-filter: drop-shadow( -5px 5px 5px rgb(165, 165, 165) );
   filter: drop-shadow( -5px 5px 5px rgb(146, 8, 8)); */
   background-position: 0% 100%;
-  background-size: 15%;
+  background-size: 30%;
   background-repeat: no-repeat; /*logo cover image*/
   margin-top: 0em;
   margin-bottom: 0em;
@@ -462,7 +462,7 @@ div.titlepage {
     text-transform: none;
     counter-increment: chapter;
     height: 7em;
-    background-image: linear-gradient(45deg, #FA7268,#FA7268);
+    background-image: linear-gradient(45deg, #ee717f,#ee717f);
     background-repeat: no-repeat;
     background-size: 80px 9px;
     background-position: 0% 0%;
@@ -511,7 +511,7 @@ h1.part:before {
     text-transform: none;
     counter-increment: chapter;
     height: 1em;
-    background-image: linear-gradient(45deg, #FA7268,#FA7268);
+    background-image: linear-gradient(45deg, #ee717f,#ee717f);
     background-repeat: no-repeat;
     background-size: 80px 9px;
     background-position: 0% 0%;
@@ -525,7 +525,7 @@ h1.part:before {
     font-family: "Arvo", serif;
     string-set: chapter-title content(text);
     font-size: 55px;
-    color:#FA7268;
+    color:#ee717f;
     /*margin-top: 2em;*/
     page-break-before: always!important;
     page-break-inside: avoid;
@@ -546,7 +546,7 @@ h1.part:before {
     text-transform: none;
     counter-increment: chapter;
     height: 1em;
-    background-image: linear-gradient(45deg, #FA7268,#FA7268);
+    background-image: linear-gradient(45deg, #ee717f,#ee717f);
     background-repeat: no-repeat;
     background-size: 80px 9px;
     background-position: 0% 0%;
@@ -554,7 +554,7 @@ h1.part:before {
   }
 .article-title:after{
     display: block;
-    background-image: linear-gradient(45deg, #FA7268,#FA7268);
+    background-image: linear-gradient(45deg, #ee717f,#ee717f);
     background-repeat: no-repeat;
     background-size: 80px 9px;
     background-position: 0% 100%;
@@ -600,6 +600,7 @@ h1.article-bibliography-header {
     word-spacing: 1px;*/
     margin-left: 170px;
     font-weight: 600;
+    color: #ee717f;
   }
   div.csl-bib-body {
     margin-left: 170px;
@@ -783,7 +784,7 @@ h1.article-bibliography-header {
   h2, h2 strong {
   font-family: "Arvo", serif;
   margin-top: 1.5em;
-  color:#111111; /*rgb(25,43,83);*/
+  color:#ee717f; /*rgb(25,43,83);*/
   }
   h3, h3 strong,
   h4, h4 strong,
@@ -1116,10 +1117,10 @@ h1.article-bibliography-header {
     border-bottom: 2px solid rgb(15,100,167);*/
   }
   tr:nth-child(odd) {
-    background-color: #F5F4EF;
+    background-color: #ecece6;
   }
   tr:nth-child(even) {
-    background-color: #EAEFEE;
+    background-color: #dad8ce;
   }
   tr:last-of-type td {
     padding-bottom: 0.6em;
@@ -1134,7 +1135,7 @@ h1.article-bibliography-header {
     border-right: 0;
     padding: 1em;
     font-weight: 600;
-    background-color: #92C9F9;/*#111111*/
+    background-color: #63c7f1;/*#111111*/
     border-bottom: 1px solid #000000;
   }
   
