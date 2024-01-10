@@ -1,0 +1,200 @@
+\documentclass{article}
+
+\usepackage{hyperref}
+\usepackage{caption}
+                
+\usepackage[backend=biber,hyperref=false,citestyle=authoryear,bibstyle=authoryear]{biblatex}
+                
+\bibliography{bibliography}
+            
+\usepackage{graphicx}
+                
+\usepackage{calc}
+                
+\newlength{\imgwidth}
+                
+\newcommand\scaledgraphics[2]{%
+                
+\settowidth{\imgwidth}{\includegraphics{#1}}%
+                
+\setlength{\imgwidth}{\minof{\imgwidth}{#2\textwidth}}%
+                
+\includegraphics[width=\imgwidth,height=\textheight,keepaspectratio]{#1}%
+                
+}
+            
+\usepackage{tabu}
+\begin{document}
+
+\title{Text}
+
+\maketitle
+
+\begin{figure}
+\scaledgraphics{45ff9ba7-23db-4aef-8e66-5b46cab0740e.png}{1}
+\label{F46825101}
+\end{figure}
+
+
+\emph{by The Authors ORCiD: 0000-0000-0000-0000}
+
+
+\textbf{Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut bibendum dui, at ultricies dolor. Praesent rhoncus, nibh eget interdum facilisis, massa erat vehicula metus, quis ultrices leo enim et ligula. Vestibulum a ultricies sapien.} 
+
+
+Praesent id eleifend velit. Vestibulum ut dolor bibendum, congue nisi eget, vestibulum purus. Nullam vel purus iaculis tellus pellentesque pharetra eget at mauris.\autocite{gesis-ssoar-68697} Morbi fringilla dolor laoreet, blandit elit ac, ultricies est. Nullam eu mi justo. Proin eu scelerisque purus. Cras et finibus nulla, in aliquet ex. Cras non viverra lectus, eu aliquam magna.\autocite{gesis-ssoar-62624}
+
+
+Suspendisse sollicitudin interdum ex eu sodales.\autocite{gesis-ssoar-70027} Cras id faucibus leo. Ut pulvinar lorem id sollicitudin scelerisque. Vestibulum ornare molestie vestibulum. Aenean purus nibh, semper ut nunc sit amet, maximus malesuada ante. Aenean mi risus, fringilla et auctor sit amet, condimentum vitae quam. Nam ut neque dolor.\autocite{https://doi.org/10.5281/zenodo.7809805} Phasellus sit amet nibh a quam euismod consequat. Maecenas non dolor molestie, iaculis metus non, elementum urna. Fusce lobortis accumsan iaculis. Integer interdum vestibulum pulvinar. Aenean blandit, justo ut mollis pulvinar, felis purus efficitur lectus, et eleifend lectus eros ultricies tellus. Maecenas non dolor molestie, iaculis metus non, elementum urna. Fusce lobortis accumsan iaculis. Integer interdum vestibulum pulvinar. Aenean blandit, justo ut mollis pulvinar, felis purus efficitur lectus, et eleifend lectus eros ultricies tellus.
+
+
+\subsection{Header 2}\label{H3719843}
+
+
+\begin{table}
+\caption*{Table pasted in from a Spreadsheet.}\label{T16439061}
+
+\begin{tabu} to \textwidth { |X|X|X|X| }
+\hline
+
+
+
+\textbf{NAME} & \textbf{WEBLAUNCHYEAR} & \textbf{PRIMEPHASEALPHA} & \textbf{PRIME PHASE No}
+ \\
+
+
+\textbf{name (blue ones were added during last update)} & \textbf{year of weblaunch / introduction / founding} & \textbf{primary phase of workflow targeted} & \textbf{phase order}
+ \\
+
+
+OSF (Open Science Framework) & 2013 & project management/planning & 0
+ \\
+
+
+AsPredicted & 2015 & project management/planning & 0
+ \\
+
+
+DMP Tool & 2011 & project management/planning & 0
+ \\
+
+
+Projects & 2013 & project management/planning & 0
+ \\
+
+
+Confluence (Atlassian) & 2003 & project management/planning & 0
+ \\
+
+
+Innocentive & 2001 & crowdsource/define research priorities/ideas  & 1
+ \\
+
+
+DHcommons & 2010 & crowdsource/define research priorities/ideas  & 1
+ \\
+\hline
+
+\end{tabu}\end{table}
+
+
+
+
+
+Nullam elementum interdum lorem ac aliquet. Sed eleifend blandit convallis. Sed at porttitor urna. Fusce rhoncus sodales scelerisque. Donec massa sem, pharetra nec pulvinar ac, ultrices vitae orci. Donec mollis varius ligula, nec viverra felis ornare rutrum. Fusce euismod metus ac ultricies sollicitudin. Sed vehicula lacus orci, quis volutpat erat consectetur nec.
+
+
+Duis hendrerit laoreet metus quis volutpat. Vivamus vel purus tortor. Integer lectus nunc, aliquet eu malesuada eu, elementum eu elit. Pellentesque vel semper sem. Phasellus bibendum massa sapien. Integer convallis, mauris a porta tincidunt, massa arcu fringilla eros, at fermentum mauris odio vitae diam. Sed nec lacus vel purus interdum finibus. Nullam lacinia nisi vitae dapibus tempus. Morbi sed lectus vitae turpis ornare volutpat. Fusce bibendum enim et risus sagittis, sed fermentum justo feugiat. Nulla at turpis eleifend, consectetur lacus quis, consectetur sapien. Duis euismod hendrerit pellentesque. Quisque pretium turpis mollis, tincidunt erat sed, rhoncus dui. Etiam at tincidunt leo. Cras semper erat vel tortor imperdiet pellentesque.
+
+
+Suspendisse efficitur, nibh elementum mattis pretium, mi diam pharetra nulla, non fringilla turpis enim ut dui. Quisque semper dui id est vestibulum sollicitudin. Integer porttitor commodo tellus, commodo pharetra nunc tempor suscipit. Interdum et malesuada fames ac ante ipsum primis in faucibus.  
+
+
+$F = G * m1 * m2 / d2$\footnote{The editor can handle math calculations.}
+
+
+Newton's Law of Gravity states that attrative force (gravity) exists between any two objects.
+
+\begin{itemize}
+\item F: Gravitational Force, in N
+
+
+\item m1: Mass of Object 1, in Kg
+
+
+\item m2: Mass of Object 2, in Kg
+
+
+\item d: Distance between the two Objects, in m
+
+
+\item G: Gravitation Constant, is 6.67 × 10-11 N.m2/kg2
+
+
+\end{itemize}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin egestas iaculis leo, eget interdum diam porta sed. Donec posuere odio sit amet lectus feugiat pellentesque. Donec ac rhoncus nunc. Pellentesque rhoncus, nisl et scelerisque porta, massa purus condimentum dui, nec dictum dui est at eros. Phasellus auctor odio vitae mollis dictum. Etiam cursus, erat eu efficitur fermentum, est lorem facilisis sapien, quis condimentum velit dui quis eros. Pellentesque non elementum odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+
+
+Aenean consequat risus neque, in blandit turpis auctor in. Mauris porta porttitor nibh, sit amet molestie ex ultrices sed. Proin sed turpis quis lacus consectetur lacinia vel id ex. Etiam at finibus magna, id semper leo. Nulla erat nibh, gravida id erat a, maximus convallis sapien. Ut lobortis mi ipsum, sit amet aliquam urna posuere tincidunt. Nullam at feugiat velit. Aliquam erat volutpat.
+
+
+Donec tristique risus libero. Pellentesque lacinia ut orci non ornare. Etiam dapibus dui ut magna pellentesque consequat. In quam nisl, blandit in interdum ut, faucibus a quam. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec aliquam scelerisque erat quis egestas. Cras pharetra imperdiet sodales. Sed rutrum ipsum aliquam nibh viverra ornare. Aliquam id nulla nec est lacinia malesuada id nec risus. Etiam aliquam ante hendrerit urna tincidunt eleifend. Aliquam erat volutpat. Donec consectetur sodales libero ac porta.
+
+\begin{figure}
+\scaledgraphics{9ca8919d-1362-44f1-9b69-1a9286cf1f45.jpeg}{1}
+\caption*{Photo 1: \href{https://en.wikipedia.org/wiki/Neudenau}{Neudenau}, Germany, district Herbolzheim: sloping up bare fields, a track with green grass and a lonely pear tree near the \emph{Hohe Strasse} southeast of Herbolzheim. © \href{https://commons.wikimedia.org/wiki/User:Aristeas}{Roman Eisele} / \href{https://commons.wikimedia.org/wiki/Main_Page}{Wikimedia Commons} / \href{https://creativecommons.org/licenses/by-sa/4.0/}{CC BY-SA 4.0}.}\label{F6617821}
+\end{figure}
+
+
+Nam volutpat nec nisi id euismod. Donec varius felis orci, vel suscipit leo pretium et. Vestibulum semper, eros a blandit sodales, mi ipsum mollis dui, quis fringilla urna neque sit amet libero. Cras euismod sem ut sem varius sagittis. Suspendisse eu erat elit. Vivamus in magna enim. Mauris vestibulum massa ac porttitor facilisis.
+
+\begin{itemize}
+\item Unordered list
+
+
+\item Item two
+
+
+\item Item three
+
+
+\end{itemize}
+
+Aliquam eget lacus ipsum. Pellentesque at fringilla sapien, at facilisis elit. Proin ut lectus accumsan, venenatis lacus sed, aliquet leo. Integer vel orci id mauris volutpat elementum ut non risus. Aliquam eget lacus ipsum. Pellentesque at fringilla sapien, at facilisis elit. Proin ut lectus accumsan, venenatis lacus sed, aliquet leo. Integer vel orci id mauris volutpat elementum ut non risus. 
+
+\begin{enumerate}
+\item Ordered list
+
+
+\item Item 2
+
+
+\item Item 3
+
+
+\end{enumerate}
+
+Sed faucibus, sem vitae congue gravida, tellus ex tincidunt erat, non tristique elit nibh lobortis ex. Nunc rutrum libero vitae risus sagittis volutpat. Integer orci quam, lobortis a justo quis, varius vehicula felis. Donec non leo sodales, varius magna nec, maximus leo. 
+
+\begin{quote}
+
+
+
+Suspendisse vitae euismod risus. Donec tortor nulla, condimentum non porta ut, gravida nec nisl. Morbi vitae pharetra turpis, in varius turpis.  \textbf{- A quote citation}
+
+
+\end{quote}
+
+
+Sed venenatis porta pulvinar. Donec nec maximus arcu. Morbi viverra consequat tellus, eu tristique sapien mattis ut.
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget odio sed tortor suscipit pretium. Cras bibendum varius mauris vel hendrerit. Vivamus in blandit urna. Quisque justo elit, laoreet non tortor vitae, dignissim luctus felis. Donec euismod erat nec ex tempus blandit. Proin quis urna dui. Ut tempus felis molestie tortor posuere, id aliquet orci rhoncus. Donec finibus vehicula ex, eget auctor neque mollis et. Duis viverra ex eu ipsum vestibulum consectetur. Suspendisse eget metus sit amet dui feugiat tristique vel sed mauris. Vivamus ut turpis feugiat, auctor sem non, blandit erat. Nulla facilisi. Suspendisse potenti.
+
+
+Sed lobortis rutrum dui vel sagittis. Proin et ligula eu dolor tristique ornare. Vivamus laoreet, lectus ut tincidunt pellentesque, diam dolor auctor ex, vitae facilisis massa orci sit amet velit. Phasellus id sapien bibendum, ornare dolor quis, feugiat urna. Proin vitae felis sollicitudin, sodales mauris at, pretium est. 
+
+
+\printbibliography[title={Bibliography}]
+\end{document}

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ncx xmlns:ncx="http://www.daisy.org/z3986/2005/ncx/" xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
+  <head>
+    <meta name="dtb:fidus" content="7" />
+  </head>
+  <docTitle>
+    <text>Report GAFFM</text>
+  </docTitle>
+  <navMap>
+
+    <!-- 2.01 NCX: playOrder is optional -->
+    <navPoint id="t0">
+      <navLabel><text>Cover</text></navLabel>
+      <content src="cover.xhtml#cover" />
+    </navPoint>
+    <navPoint id="t1">
+      <navLabel><text>Title page</text></navLabel>
+      <content src="titlepage.xhtml#title" />
+    </navPoint>
+    <navPoint id="t_1_0-1">
+      <navLabel><text>Imprint</text></navLabel>
+      <content src="document-1.xhtml#_1_0" />
+      <navPoint id="tH6864698-1">
+        <navLabel><text>Publication title: Demo</text></navLabel>
+        <content src="document-1.xhtml#H6864698" />
+        <navPoint id="tH8085668-1">
+          <navLabel><text>Available as multi-format</text></navLabel>
+          <content src="document-1.xhtml#H8085668" />
+        </navPoint>
+        <navPoint id="tH5866075-1">
+          <navLabel><text>Translations</text></navLabel>
+          <content src="document-1.xhtml#H5866075" />
+        </navPoint>
+        <navPoint id="tH4022411-1">
+          <navLabel><text>Interoperable formats &amp; reuse</text></navLabel>
+          <content src="document-1.xhtml#H4022411" />
+        </navPoint>
+        <navPoint id="tH288689-1">
+          <navLabel><text>Version history</text></navLabel>
+          <content src="document-1.xhtml#H288689" />
+        </navPoint>
+        <navPoint id="tH3767141-1">
+          <navLabel><text>Publication review</text></navLabel>
+          <content src="document-1.xhtml#H3767141" />
+        </navPoint>
+        <navPoint id="tH3133638-1">
+          <navLabel><text>Publication usage stats</text></navLabel>
+          <content src="document-1.xhtml#H3133638" />
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="t_2_0-2">
+      <navLabel><text>Appendix</text></navLabel>
+      <content src="document-2.xhtml#_2_0" />
+      <navPoint id="tH2118760-2">
+        <navLabel><text>Associated data</text></navLabel>
+        <content src="document-2.xhtml#H2118760" />
+        <navPoint id="tH298432-2">
+          <navLabel><text>Data preview</text></navLabel>
+          <content src="document-2.xhtml#H298432" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="tH3599814-2">
+        <navLabel><text>Survey</text></navLabel>
+        <content src="document-2.xhtml#H3599814" />
+      </navPoint>
+      <navPoint id="tH1181349-2">
+        <navLabel><text>Data source</text></navLabel>
+        <content src="document-2.xhtml#H1181349" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="t_3_0-3">
+      <navLabel><text>Contributors</text></navLabel>
+      <content src="document-3.xhtml#_3_0" />
+      <navPoint id="tH8801368-3">
+        <navLabel><text>Author(s)</text></navLabel>
+        <content src="document-3.xhtml#H8801368" />
+        <navPoint id="tH7011072-3">
+          <navLabel><text>Name</text></navLabel>
+          <content src="document-3.xhtml#H7011072" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="tH319339-3">
+        <navLabel><text>Researcher(s)</text></navLabel>
+        <content src="document-3.xhtml#H319339" />
+        <navPoint id="tH9896496-3">
+          <navLabel><text>Name</text></navLabel>
+          <content src="document-3.xhtml#H9896496" />
+        </navPoint>
+      </navPoint>
+      <navPoint id="tH1663104-3">
+        <navLabel><text>Thanks</text></navLabel>
+        <content src="document-3.xhtml#H1663104" />
+      </navPoint>
+      <navPoint id="tH6025747-3">
+        <navLabel><text>About the publication</text></navLabel>
+        <content src="document-3.xhtml#H6025747" />
+        <navPoint id="tH5417875-3">
+          <navLabel><text>Contact</text></navLabel>
+          <content src="document-3.xhtml#H5417875" />
+          <navPoint id="tH4140235-3">
+            <navLabel><text>Organisation name</text></navLabel>
+            <content src="document-3.xhtml#H4140235" />
+            <navPoint id="tH5096991-3">
+              <navLabel><text>Find the publication online</text></navLabel>
+              <content src="document-3.xhtml#H5096991" />
+            </navPoint>
+          </navPoint>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="t_4_0-4">
+      <navLabel><text>Introduction</text></navLabel>
+      <content src="document-4.xhtml#_4_0" />
+      <navPoint id="tH152469-4">
+        <navLabel><text>Header 2</text></navLabel>
+        <content src="document-4.xhtml#H152469" />
+        <navPoint id="tH940055-4">
+          <navLabel><text>Header 3</text></navLabel>
+          <content src="document-4.xhtml#H940055" />
+          <navPoint id="tH1559559-4">
+            <navLabel><text>Header 4</text></navLabel>
+            <content src="document-4.xhtml#H1559559" />
+            <navPoint id="tH7046962-4">
+              <navLabel><text>Header 5</text></navLabel>
+              <content src="document-4.xhtml#H7046962" />
+              <navPoint id="tH2507771-4">
+                <navLabel><text>Header 6</text></navLabel>
+                <content src="document-4.xhtml#H2507771" />
+              </navPoint>
+            </navPoint>
+          </navPoint>
+        </navPoint>
+      </navPoint>
+    </navPoint>
+    <navPoint id="t_5_0-5">
+      <navLabel><text>Text</text></navLabel>
+      <content src="document-5.xhtml#_5_0" />
+      <navPoint id="tH3719843-5">
+        <navLabel><text>Header 2</text></navLabel>
+        <content src="document-5.xhtml#H3719843" />
+      </navPoint>
+    </navPoint>
+    <navPoint id="t2">
+      <navLabel><text>Copyright</text></navLabel>
+      <content src="copyright.xhtml#copyright" />
+    </navPoint>
+  </navMap>
+</ncx>

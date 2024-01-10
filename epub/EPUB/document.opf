@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="fidus" xml:lang="en-US" prefix="cc: http://creativecommons.org/ns#">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:identifier id="fidus">7</dc:identifier>
+    <dc:title>Report GAFFM</dc:title>
+    <dc:creator>
+      The Author(s)
+    </dc:creator>
+    <dc:language>en-US</dc:language>
+    <meta property="dcterms:modified">2024-01-10T11:18:28Z</meta>
+    <dc:date>2024-01-10</dc:date>
+    <dc:rights>Creative Commons International 4.0</dc:rights>
+    <dc:publisher>The Publisher</dc:publisher>
+    <dc:subject>report</dc:subject>
+    <dc:subject>demo</dc:subject>
+    <dc:subject>report</dc:subject>
+    <dc:subject>appoloosa</dc:subject>
+    <dc:subject>style</dc:subject>
+  </metadata>
+  <manifest>
+    <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml" />
+    <item id="titlepage" href="titlepage.xhtml" media-type="application/xhtml+xml" />
+    <item id="t1" href="document-1.xhtml" media-type="application/xhtml+xml" />
+    <item id="t2" href="document-2.xhtml" media-type="application/xhtml+xml" />
+    <item id="t3" href="document-3.xhtml" media-type="application/xhtml+xml" />
+    <item id="t4" href="document-4.xhtml" media-type="application/xhtml+xml" />
+    <item id="t5" href="document-5.xhtml" media-type="application/xhtml+xml" />
+    <item id="nav" href="document-nav.xhtml" properties="nav" media-type="application/xhtml+xml" />
+    <item id="copyright" href="copyright.xhtml" media-type="application/xhtml+xml" />
+    <item id="cover-image" properties="cover-image" href="ea836b6a-e678-40be-a765-34ee7cb58ae0.jpg" media-type="image/jpeg" />
+    <item id="img1" href="images/6fe34584-8d69-4802-be0e-a281121840ac.png" media-type="image/png" />
+    <item id="img2" href="images/1fa18e9f-eb2d-44f8-a1bc-a761a09f972e.png" media-type="image/png" />
+    <item id="img3" href="images/4d5aeba0-eccd-4039-93f8-6f576dfb284d.png" media-type="image/png" />
+    <item id="img4" href="images/61c76874-4adf-40b2-9803-0a3db690688c.png" media-type="image/png" />
+    <item id="img5" href="images/45ff9ba7-23db-4aef-8e66-5b46cab0740e.png" media-type="image/png" />
+    <item id="img6" href="images/9ca8919d-1362-44f1-9b69-1a9286cf1f45.jpeg" media-type="image/jpeg" />
+    <item id="font0" href="css/media/Inter-Regular.ttf" media-type="font/sfnt" />
+    <item id="font1" href="css/media/Inter-Italic.ttf" media-type="font/sfnt" />
+    <item id="font2" href="css/media/Inter-Bold.ttf" media-type="font/sfnt" />
+    <item id="font3" href="css/media/Inter-BoldItalic.ttf" media-type="font/sfnt" />
+    <item id="font4" href="css/media/Inter-Medium.ttf" media-type="font/sfnt" />
+    <item id="font5" href="css/media/Inter-MediumItalic.ttf" media-type="font/sfnt" />
+    <item id="font6" href="css/media/Inter-SemiBold.ttf" media-type="font/sfnt" />
+    <item id="font7" href="css/media/Inter-SemiBoldItalic.ttf" media-type="font/sfnt" />
+    <item id="font8" href="css/media/Inter-Light.ttf" media-type="font/sfnt" />
+    <item id="font9" href="css/media/Inter-LightItalic.ttf" media-type="font/sfnt" />
+    <item id="font10" href="css/media/Inter-ExtraLight.ttf" media-type="font/sfnt" />
+    <item id="font11" href="css/media/Inter-ExtraLightItalic.ttf" media-type="font/sfnt" />
+    <item id="font12" href="css/media/RobotoSlab-SemiBold.ttf" media-type="font/sfnt" />
+    <item id="font13" href="css/media/RobotoSlab-Medium.ttf" media-type="font/sfnt" />
+    <item id="font14" href="css/media/RobotoSlab-Regular.ttf" media-type="font/sfnt" />
+    <item id="font15" href="css/media/RobotoSlab-Light.ttf" media-type="font/sfnt" />
+    <item id="font16" href="css/media/RobotoSlab-ExtraLight.ttf" media-type="font/sfnt" />
+    <item id="font17" href="css/media/Arvo-Bold.ttf" media-type="font/sfnt" />
+    <item id="font18" href="css/media/Arvo-Regular.ttf" media-type="font/sfnt" />
+    <item id="font19" href="css/media/Arvo-Italic.ttf" media-type="font/sfnt" />
+    <item id="font20" href="css/media/Arvo-BoldItalic.ttf" media-type="font/sfnt" />
+    <item id="font21" href="css/media/qr.png" media-type="font/sfnt" />
+    <item id="css0" href="css/document.css" media-type="text/css" />
+    <item id="css1" href="css/appaloosa.css" media-type="text/css" />
+    <item id="mathlive-0" href="css/mathlive.css" media-type="text/css" />
+    <item id="mathlive-1" href="css/media/KaTeX_SansSerif-Bold.woff" media-type="font/woff" />
+    <item id="mathlive-2" href="css/media/KaTeX_Script-Regular.woff2" media-type="font/woff2" />
+    <item id="mathlive-3" href="css/media/KaTeX_Fraktur-Regular.woff" media-type="font/woff" />
+    <item id="mathlive-4" href="css/media/KaTeX_SansSerif-Bold.woff2" media-type="font/woff2" />
+    <item id="mathlive-5" href="css/media/KaTeX_Fraktur-Regular.woff2" media-type="font/woff2" />
+    <item id="mathlive-6" href="css/media/KaTeX_Size3-Regular.woff2" media-type="font/woff2" />
+    <item id="mathlive-7" href="css/media/KaTeX_Size2-Regular.woff2" media-type="font/woff2" />
+    <item id="mathlive-8" href="css/media/KaTeX_Main-Italic.woff" media-type="font/woff" />
+    <item id="mathlive-9" href="css/media/KaTeX_AMS-Regular.woff" media-type="font/woff" />
+    <item id="mathlive-10" href="css/media/KaTeX_Typewriter-Regular.woff2" media-type="font/woff2" />
+    <item id="mathlive-11" href="css/media/KaTeX_Main-Regular.woff2" media-type="font/woff2" />
+    <item id="mathlive-12" href="css/media/KaTeX_SansSerif-Regular.woff2" media-type="font/woff2" />
+    <item id="mathlive-13" href="css/media/KaTeX_Main-Italic.woff2" media-type="font/woff2" />
+    <item id="mathlive-14" href="css/media/KaTeX_Typewriter-Regular.woff" media-type="font/woff" />
+    <item id="mathlive-15" href="css/media/KaTeX_Main-BoldItalic.woff" media-type="font/woff" />
+    <item id="mathlive-16" href="css/media/KaTeX_Size3-Regular.woff" media-type="font/woff" />
+    <item id="mathlive-17" href="css/media/KaTeX_Math-BoldItalic.woff" media-type="font/woff" />
+    <item id="mathlive-18" href="css/media/KaTeX_Main-Bold.woff" media-type="font/woff" />
+    <item id="mathlive-19" href="css/media/KaTeX_Script-Regular.woff" media-type="font/woff" />
+    <item id="mathlive-20" href="css/media/KaTeX_SansSerif-Regular.woff" media-type="font/woff" />
+    <item id="mathlive-21" href="css/media/KaTeX_Fraktur-Bold.woff" media-type="font/woff" />
+    <item id="mathlive-22" href="css/media/KaTeX_Main-BoldItalic.woff2" media-type="font/woff2" />
+    <item id="mathlive-23" href="css/media/KaTeX_Caligraphic-Regular.woff" media-type="font/woff" />
+    <item id="mathlive-24" href="css/media/KaTeX_SansSerif-Italic.woff" media-type="font/woff" />
+    <item id="mathlive-25" href="css/media/KaTeX_Caligraphic-Regular.woff2" media-type="font/woff2" />
+    <item id="mathlive-26" href="css/media/KaTeX_Main-Bold.woff2" media-type="font/woff2" />
+    <item id="mathlive-27" href="css/media/KaTeX_Size4-Regular.woff" media-type="font/woff" />
+    <item id="mathlive-28" href="css/media/KaTeX_AMS-Regular.woff2" media-type="font/woff2" />
+    <item id="mathlive-29" href="css/media/KaTeX_Math-BoldItalic.woff2" media-type="font/woff2" />
+    <item id="mathlive-30" href="css/media/KaTeX_Size2-Regular.woff" media-type="font/woff" />
+    <item id="mathlive-31" href="css/media/KaTeX_Math-Italic.woff" media-type="font/woff" />
+    <item id="mathlive-32" href="css/media/KaTeX_SansSerif-Italic.woff2" media-type="font/woff2" />
+    <item id="mathlive-33" href="css/media/KaTeX_Size1-Regular.woff2" media-type="font/woff2" />
+    <item id="mathlive-34" href="css/media/KaTeX_Size1-Regular.woff" media-type="font/woff" />
+    <item id="mathlive-35" href="css/media/KaTeX_Main-Regular.woff" media-type="font/woff" />
+    <item id="mathlive-36" href="css/media/KaTeX_Size4-Regular.woff2" media-type="font/woff2" />
+    <item id="mathlive-37" href="css/media/KaTeX_Fraktur-Bold.woff2" media-type="font/woff2" />
+    <item id="mathlive-38" href="css/media/KaTeX_Caligraphic-Bold.woff" media-type="font/woff" />
+    <item id="mathlive-39" href="css/media/KaTeX_Math-Italic.woff2" media-type="font/woff2" />
+    <item id="mathlive-40" href="css/media/KaTeX_Caligraphic-Bold.woff2" media-type="font/woff2" />
+
+    <!-- ncx included for 2.0 reading system compatibility: -->
+    <item id="ncx" href="document.ncx" media-type="application/x-dtbncx+xml" />
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cover" linear="no" />
+    <itemref idref="titlepage" linear="yes" />
+    <itemref idref="t1" linear="yes" />
+    <itemref idref="t2" linear="yes" />
+    <itemref idref="t3" linear="yes" />
+    <itemref idref="t4" linear="yes" />
+    <itemref idref="t5" linear="yes" />
+    <itemref idref="copyright" linear="yes" />
+    <itemref idref="nav" linear="no" />
+  </spine>
+</package>

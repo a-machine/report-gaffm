@@ -1,0 +1,50 @@
+\documentclass[11pt]{book}
+
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage{wrapfig}
+                
+\usepackage[backend=biber,hyperref=false,citestyle=authoryear,bibstyle=authoryear]{biblatex}
+                
+\bibliography{bibliography}
+            
+\usepackage{graphicx}
+                
+\usepackage{calc}
+                
+\newlength{\imgwidth}
+                
+\newcommand\scaledgraphics[2]{%
+                
+\settowidth{\imgwidth}{\includegraphics{#1}}%
+                
+\setlength{\imgwidth}{\minof{\imgwidth}{#2\textwidth}}%
+                
+\includegraphics[width=\imgwidth,height=\textheight,keepaspectratio]{#1}%
+                
+}
+            
+\usepackage{tabu}
+\usepackage{docmute}
+\title{Report GAFFM}
+\author{The Author(s)}
+\date{Version 1.0R DOI: 10.1000/100 REPO: https://github.com/}
+\begin{document}
+\maketitle
+\def\title#1{\chapter{#1}}
+\tableofcontents
+
+        \input{chapter-1}
+        
+        \input{chapter-2}
+        
+        \input{chapter-3}
+        
+        \input{chapter-4}
+        
+        \input{chapter-5}
+        
+
+
+\printbibliography[title={Bibliography}]
+\end{document}

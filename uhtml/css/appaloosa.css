@@ -1,4 +1,4 @@
-/*Appaloosa (Report) - publication style: Version: fe41a2df547a7247ae5ec06713366f1b3e1f0c79 12 June 2023 18:00:00  
+/*Appaloosa (Report) - publication style: Version: 6d7fb76 15 April 2023 14:44:44 Repo link: https://github.com/a-machine/appoloosa-report-style/blob/main/vivlio/style/css/appaloosa.css*/
 
 /*body*/
 
@@ -240,7 +240,7 @@
       font-weight: 400;
       font-size: 12px;
       line-height: 1.4;
-      color: #000000;
+      color: #000;
       letter-spacing: 0.1pt;
       background-image: linear-gradient(45deg, #FA7268,#FA7268);
       background-repeat: no-repeat;
@@ -267,7 +267,7 @@
 html {
     font-size: 18px;
     font-weight: 300;
-    color: #000000;
+    color: #000;
     text-rendering: optimizeLegibility;
     overflow-wrap: break-word;
     word-wrap: break-word;
@@ -355,7 +355,7 @@ body {
   }
   .copyrightpage p {
     font-family: "Inter", sans-serif;
-    color: #000000;
+    color: #000;
   }
   nav::before {
     content: "Contents";
@@ -443,7 +443,7 @@ div.titlepage {
     /*text-align: center;*/
     font-family: "Arvo", serif;
     font-size: 55px;
-    color:#000000;
+    color:#111111;
     page-break-inside: avoid;
     page-break-after: avoid;
     text-transform: none;
@@ -467,7 +467,7 @@ div.titlepage {
     background-size: 80px 9px;
     background-position: 0% 0%;
     padding-top: 0.5em;
-    color: #000000;
+    color: #0a0a0a;
     content:" ";/*here goes text*/
     font-size: 18px;
   }
@@ -476,7 +476,7 @@ h2.booksubtitle {
     font-family: "Roboto Slab", sans-serif;
     font-size: 30px;
     font-weight: 400!important;
-    color: #000000;
+    color: #0a0a0a;
     padding-top: 0.7em;
     margin: 0;
   }
@@ -484,7 +484,7 @@ h2.booksubtitle {
 h3.bookauthor {
     font-family: "Roboto Slab", sans-serif;
     font-size: 20px;
-    color: #000000;
+    color: #0a0a0a;
     padding-top: 2em;
     font-weight: 400!important;
     margin: 0;
@@ -493,8 +493,8 @@ h3.bookauthor {
 h4.bookversion {
     font-family: "Roboto Slab", sans-serif;
     font-size: 12px;
-    color: #000000;
-    font-weight: 400;
+    color: #0a0a0a;
+    font-weight: 400!important;
     padding-top: 44em;
     margin: 0;
     text-align: right;
@@ -503,7 +503,7 @@ h4.bookversion {
 h1.part {
     page-break-before: always!important;
     page-break-after: always!important;
-    color: #000000;
+    color: #111111;
     margin-top:0;
   }
 h1.part:before {
@@ -701,7 +701,7 @@ h1.article-bibliography-header {
   }
   
   a, .csl-bib-body a {
-    color: #000000;
+    color: #000;
     text-decoration: none !important;
     border-bottom: 1px dashed rgb(101,100,98);
   }
@@ -783,7 +783,7 @@ h1.article-bibliography-header {
   h2, h2 strong {
   font-family: "Arvo", serif;
   margin-top: 1.5em;
-  color:#000000; /*rgb(25,43,83);*/
+  color:#111111; /*rgb(25,43,83);*/
   }
   h3, h3 strong,
   h4, h4 strong,
@@ -791,13 +791,13 @@ h1.article-bibliography-header {
   h6 {
     font-family: "Arvo", serif;
     margin-top: 1.5em;
-    color: #000000; /*rgb(25,43,83);*/
+    color: #000; /*rgb(25,43,83);*/
   }
   
   h1 {
     font-family: "Arvo", serif;
     font-size: 55px; /* 2.233rem */
-    color:#000000; /*rgb(25,43,83);*/
+    color:#111111; /*rgb(25,43,83);*/
     margin-bottom: 1em;
     margin-top: 1em;
     page-break-inside: avoid;
@@ -867,7 +867,7 @@ h1.article-bibliography-header {
   hr {
       border: 0;
       height: 1px;
-      background: #000000;
+      background: #000;
       }
   
   hr.br { border:0; height: 0px; }
@@ -906,7 +906,7 @@ h1.article-bibliography-header {
   /*epub*/
 
   .footnote-content {
-    color: #000000;
+    color: #000;
     text-indent: 0;
     font-size: 0.7rem;
     font-family: "Inter", sans-serif;
@@ -998,7 +998,7 @@ h1.article-bibliography-header {
   ul.dashed > li:before {
     content: "-";
     text-indent: -20px;
-    color:#000000;
+    color:#111111;
     font-size: 120%;
     font-weight: 700;
   }
@@ -1073,7 +1073,7 @@ h1.article-bibliography-header {
     border-left: 0;
     border-right: 0;
     /*text-align: right;*/
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #111111;
     padding: 1.1em 0.5em;
   }
   
@@ -1134,7 +1134,7 @@ h1.article-bibliography-header {
     border-right: 0;
     padding: 1em;
     font-weight: 600;
-    background-color: #9DCEF8; /*#000000*/
+    background-color: #92C9F9;/*#111111*/
     border-bottom: 1px solid #000000;
   }
   
@@ -1162,7 +1162,7 @@ h1.article-bibliography-header {
   ul.numeric-decimals { counter-reset:section -1; list-style-type:none; list-style-position: outside; padding-left: 0; font-size: 9pt;}
   ul.numeric-decimals li { list-style-type:none;
     margin-top: 0.3em;
-    color: #000000;
+    color: #000;
     margin-left: 0;
     margin-left: 0;
     text-indent: 0;
@@ -1225,7 +1225,7 @@ h1.article-bibliography-header {
 
   @media print {
     a {
-      color: #000000;
+      color: #000;
       text-decoration: none !important;
       border-bottom: 1px dotted rgb(101,100,98);
     }
@@ -1290,7 +1290,7 @@ h1.article-bibliography-header {
       display: block;
       font-family: "Inter", sans-serif;
       font-size: 1.395rem;
-      color:#000000;
+      color:#111111;
       font-weight: 600;
       border-bottom: 1px solid black;
       height: 2em;

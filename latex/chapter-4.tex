@@ -1,0 +1,107 @@
+\documentclass{article}
+
+\usepackage{hyperref}
+\usepackage{caption}
+                
+\usepackage[backend=biber,hyperref=false,citestyle=authoryear,bibstyle=authoryear]{biblatex}
+                
+\bibliography{bibliography}
+            
+\usepackage{graphicx}
+                
+\usepackage{calc}
+                
+\newlength{\imgwidth}
+                
+\newcommand\scaledgraphics[2]{%
+                
+\settowidth{\imgwidth}{\includegraphics{#1}}%
+                
+\setlength{\imgwidth}{\minof{\imgwidth}{#2\textwidth}}%
+                
+\includegraphics[width=\imgwidth,height=\textheight,keepaspectratio]{#1}%
+                
+}
+            
+\begin{document}
+
+\title{Introduction}
+
+\maketitle
+
+\begin{figure}
+\scaledgraphics{61c76874-4adf-40b2-9803-0a3db690688c.png}{0.75}
+\caption*{Image: \href{https://blush.design/}{blush.design} All Illustrations published on Blush can be used for free. \href{https://blush.design/license}{Licence}.}\label{F94100281}
+\end{figure}
+
+
+\textbf{Maecenas imperdiet tempus felis sed hendrerit. Etiam ornare placerat augue sit amet sollicitudin. Cras a posuere nibh. Aliquam lobortis imperdiet magna. Curabitur fermentum lacinia consectetur.}
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce aliquam dictum magna. Etiam eget mollis tellus. Nunc fermentum vestibulum risus in dignissim. Maecenas imperdiet tempus felis sed hendrerit. Etiam ornare placerat augue sit amet sollicitudin. Cras a posuere nibh.\footnote{A footnote commenting on the subject of the report.
+
+
+Footnotes can have multiple paragraphs if needed.} Aliquam lobortis imperdiet magna. Curabitur fermentum lacinia consectetur. Phasellus auctor ipsum id semper hendrerit. Quisque aliquet molestie eros, ac viverra nunc. Aliquam ut dignissim nisl. Phasellus feugiat luctus magna lacinia ornare. Fusce laoreet vulputate felis.
+
+
+\subsection{Header 2}\label{H152469}
+
+
+
+Nulla eget ante et leo feugiat varius nec id eros. Nullam dictum sit amet leo id faucibus. Nullam in felis nec lorem ultrices consequat eget non velit. Praesent nunc mi, aliquam sit amet purus et, consequat mollis lacus. Vestibulum et laoreet nisi, id pretium erat. Nam mollis placerat augue, non facilisis urna auctor vitae. Aenean quis ipsum et augue facilisis sodales. Quisque dignissim viverra neque in convallis. Mauris augue orci, scelerisque vitae felis ac, pulvinar euismod diam. Suspendisse sed pharetra mauris.\autocite{KayAlan197208}\footnote{Note citations can be automatically pulled in from databases. As well as have the citation style changed automatically.}
+
+\begin{quote}
+
+
+
+Praesent nunc mi, aliquam sit amet purus et, consequat mollis lacus. Vestibulum et laoreet nisi, id pretium erat. Nam mollis placerat augue, non facilisis urna auctor vitae. Aenean quis ipsum et augue facilisis sodales. Quisque dignissim viverra neque in convallis. \emph{\textbf{-}} \emph{\textbf{A quotation}}
+
+
+\end{quote}
+
+
+\subsubsection{Header 3}\label{H940055}
+
+
+
+Proin a facilisis urna. Phasellus sed justo iaculis, eleifend lacus ut, commodo enim. Cras blandit volutpat consectetur. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus dapibus urna dui, a volutpat massa aliquam a. Phasellus id finibus erat, eget consequat enim. Suspendisse quis consectetur ligula, ac luctus magna. Aliquam erat volutpat. Vivamus posuere id eros vitae facilisis. Maecenas gravida ultricies vulputate. Aliquam erat volutpat. Curabitur vitae mollis leo. Suspendisse iaculis quam sit amet lobortis fringilla. Donec vehicula est eu sodales vehicula. Aliquam quis quam sem.
+
+
+\subsubsection{Header 4}\label{H1559559}
+
+
+
+Ut eu lacus ac enim ullamcorper rhoncus. Sed ac dapibus libero. Suspendisse mattis orci pretium imperdiet volutpat. Nulla pharetra in mauris eget pharetra. Cras suscipit tristique eros, ac dapibus tellus vestibulum ut. Duis dictum consectetur ante, eu sodales tortor suscipit vitae. Integer semper lacus ipsum, sed dapibus felis faucibus ac. Etiam cursus neque sit amet augue aliquam, a molestie purus rhoncus. Morbi quis interdum leo.
+
+
+\subsubsection{Header 5}\label{H7046962}
+
+
+
+Curabitur ut urna justo. Vivamus odio quam, elementum nec magna sit amet, faucibus iaculis nibh. Praesent porttitor mi ut porta dapibus. Maecenas in dolor sed ex dictum tincidunt sed ac purus. Vestibulum ultrices ante malesuada diam interdum, ac facilisis magna pretium. Nullam placerat libero convallis mattis ullamcorper. Curabitur mollis ipsum at posuere hendrerit. Mauris vitae nunc sollicitudin, tempor velit vitae, tempus nunc.
+
+
+\subsubsection{Header 6}\label{H2507771}
+
+
+
+Vestibulum nec est ipsum. Ut dictum bibendum dui nec pulvinar. Mauris magna urna, aliquet eu odio nec, lobortis tincidunt tellus. Nullam sed ullamcorper enim. Nunc non mauris in odio fringilla cursus. Praesent mattis tellus eget mollis porta. Vivamus eget efficitur nibh. Ut mattis semper est, quis congue lorem tincidunt nec. Cras eu volutpat neque, quis auctor nulla. Integer sapien purus, varius id nisl sit amet, egestas vehicula elit.
+
+
+Duis ultrices felis libero, sed ullamcorper justo aliquet ac. Proin sed sodales urna, eu egestas diam. Fusce vel quam diam. Duis interdum sem sem, a feugiat velit lacinia vitae. Donec sit amet lacus eros. Nullam vel sem ut elit sagittis maximus. Vivamus tellus erat, volutpat a accumsan in, faucibus vel arcu. Phasellus feugiat lobortis ex non lobortis. Curabitur egestas egestas leo, vitae tempus orci viverra quis. Suspendisse porttitor lobortis aliquam. Suspendisse molestie pretium eros, sit amet euismod mauris. Morbi sodales risus a tortor sodales, sed elementum risus lobortis.
+
+
+Morbi tincidunt nisl in dolor bibendum gravida. Aliquam lacinia eros ac lorem lobortis dictum. Fusce ultricies posuere viverra. Sed posuere est orci, eu cursus ipsum eleifend eu. Suspendisse et fermentum metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dolor libero, viverra et bibendum et, dapibus in augue. Vestibulum vitae ex elit. Nunc efficitur ante vel nisi sodales, nec fermentum neque dapibus. Aenean molestie faucibus justo nec sagittis. Fusce ac arcu pharetra, tempus dui sed, blandit quam.
+
+
+Nam blandit enim vitae vulputate finibus. Proin iaculis convallis sapien vel scelerisque. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam vehicula sagittis justo, vitae mattis purus aliquet quis. Praesent in odio lacus. Donec tristique mollis felis tincidunt convallis. Nullam fringilla, nulla at pharetra porta, augue orci sollicitudin enim, quis tempus enim ex eget neque. In non massa sed arcu venenatis fringilla eget vitae elit. Sed fermentum tempor mauris eget blandit. Nam pulvinar accumsan orci eget luctus.
+
+
+In finibus pharetra ipsum, a placerat mi fringilla vel. Pellentesque hendrerit ante et gravida varius. Duis eget augue sit amet ante finibus pellentesque. Ut blandit venenatis risus, in tristique mauris pulvinar vitae. In hac habitasse platea dictumst. Donec dapibus dictum velit, at posuere lacus auctor eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed euismod molestie ipsum. Nunc sagittis, enim vel ultricies eleifend, neque neque imperdiet est, ornare dapibus sem sapien in mauris. Integer viverra sem nibh, sit amet feugiat mi cursus elementum.
+
+
+
+
+
+\printbibliography[title={Bibliography}]
+\end{document}
