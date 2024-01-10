@@ -48,6 +48,8 @@ it will serve to http://localhost:3000/
 
 #### Color palette
 
+New palette - CMYK as RGB straight conversion - https://coolors.co/ff52a3-0ff5f7-91a97b
+
     #FA7268 orange
     #fab6b2 orange (lighter for blockquote border)
     #F5F4EF creme grey
