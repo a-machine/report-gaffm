@@ -2,13 +2,15 @@
 
 <img src="/cover/cover.jpg" alt="cover" width="400"/>
 
+### Code
+
+Multi-format theme coding.
+
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
-##### Code
+All software and code used is Free and Open Source Software. Respective open-source licences apply. Code by A-Machine is GPLv3 https://www.gnu.org/licenses/gpl-3.0.en.html 
 
-Free and Open Source Software. Respective open-source licences apply. Code by A-Machine is GPLv3 https://www.gnu.org/licenses/gpl-3.0.en.html 
-
-### Development
+### Development, design, and previewing
 
 Instructions for running locally for preview and design purposes https://github.com/a-machine/opd/wiki/Running-Design-Apps-As-Local
 
