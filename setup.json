@@ -1,6 +1,6 @@
 {
   "__comment": "Set values to false if no link should be created.",
-  "repoURL": "https://github.com/a-machine/report-gaffm",
+  "repoURL": "https://github.com/a-machine/report-gaffm/",
   "repoBranch": "main",
   "vivlioURL": "https://vivliostyle.vercel.app/"
 }
