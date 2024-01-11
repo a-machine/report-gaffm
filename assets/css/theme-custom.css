@@ -1,27 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@font-face {
+  font-family: "FSMe";
+  font-weight: 600;
+  font-style: normal;
+  src: local('FSMe'), local('FSMe'), url(../../uhtml/css/media/FSMe.otf) format('opentype');
+}
+
+@font-face {
+  font-family: "AgletSans";
+  font-weight: 800;
+  font-style: normal;
+  src: local('AgletSans SemiBold'), local('AgletSans-SemiBold'), url(../../uhtml/css/media/AgletSans-SemiBold.otf) format('opentype');
+}
 
 :root {
     --base-font-size                                  : 16px;
-    --base-font-family                                : "Inter", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, sans-serif; /*--base-color: var(--mono-shade2);*/
+    --base-font-family                                : "FSMe", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, sans-serif; /*--base-color: var(--mono-shade2);*/
     --link-color                                      : #000000; /*#0A75BD*/
     --link-border-color                               : #000000;
-    --link-color--hover                               : #FA7268;
-    --link-border-bottom--hover                       : #FA7268;
+    --link-color--hover                               : #EE717F;
+    --link-border-bottom--hover                       : #EE717F;
     --link-text-decoration                            : underline;
     --link-text-decoration-color                      : #000000;
     --sidebar-name-color                              : #000000;
-    --sidebar-background                              : #C9D5DE;
+    --sidebar-background                              : #DAD8CE;
     --sidebar-nav-link-color--active                  : #4D4D4D;
     --cover-heading-font-size-max                     : 40;
     --cover-heading-font-size-min                     : 34;
     --blockquote-border-color                         : #fab6b2;
-    --heading-font-family                             : "Roboto Slab", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, serif;
+    --heading-font-family                             : "AgletSans", -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, sans-serif;
     --heading-h1-font-size: 3rem;
     --heading-h1-font-weight: 600;
-    --heading-h1-color:  #FA7268;
+    --heading-h1-color:  #EE717F;
     --heading-h1-margin: 10rem 0 3rem 0;
     --heading-h2-font-size: 2rem;/*var(--font-size-xl)*/
-    --heading-h2-color:  #FA7268;
+    --heading-h2-color:  #EE717F;
     --heading-h3-border-style: solid;
     --heading-h3-font-size: 1.6rem; /*var(--font-size-l)*/
     --heading-h3-font-weight: 400;
@@ -33,8 +45,8 @@
     --heading-h6-font-size: 0.9rem; /*var(--font-size-xs)*/
     --sidebar-nav-link-font-weight--active            : bold;
     --sidebar-border-color                            : #aeb6bb;
-    --sidebar-nav-link-border-color--active           : #FA7268;
-    --sidebar-nav-link-border-color--hover            : #FA7268;
+    --sidebar-nav-link-border-color--active           : #EE717F;
+    --sidebar-nav-link-border-color--hover            : #EE717F;
     --sidebar-nav-link-color--active                  : #000000;
     --sidebar-nav-link-color--hover                   : #000000;
     --sidebar-nav-link-font-weight--hover             : 500;
@@ -85,7 +97,7 @@ background-repeat: no-repeat;*/
   text-transform: none;
   counter-increment: chapter;
   height: 3em;
-  background-image: linear-gradient(#FA7268,#FA7268);
+  background-image: linear-gradient(#EE717F,#EE717F);
   background-repeat: no-repeat;
   background-size: 80px 9px;
   background-position: 0% 0%;
@@ -98,7 +110,7 @@ background-repeat: no-repeat;*/
 .content .markdown-section div.titlepage:after {
   display: block;
   height: 1em;
-  background-image: linear-gradient(#FA7268,#FA7268);
+  background-image: linear-gradient(#EE717F,#EE717F);
   background-repeat: no-repeat;
   background-size: 80px 9px;
   background-position: 0% 0%;
@@ -333,10 +345,10 @@ color: var(--base-color);
   border-color: var(--link-border-color);
 }
 .markdown-section tbody tr:nth-child(odd) {
-  background-color: #F5F4EF;
+  background-color: #ECECE6;
 }
 .markdown-section tbody tr:nth-child(even) {
-  background-color: #EAEFEE;
+  background-color: #DAD8CE;
 }
 .content .markdown-section table caption, .content .markdown-section figure figcaption {
     font-size: 0.9rem;
@@ -393,7 +405,7 @@ section.content > aside.nav > .page_toc ul a:hover span {
   color: #EE868F !important;
 }
 /*aside.nav > .page_toc .active {
-  border-left: 5px solid #FA7268 !important;
+  border-left: 5px solid #EE717F !important;
   color: inherit !important;
   padding-left: 10px;
   font-weight: bold;
