@@ -1,26 +1,6 @@
-## Demo Style for Reports
+## Report Style GAFFM - English
 
-Style name: Appoloosa
-
-An example style for reports to produce multi-format outputs from a single source input using the A-Machine extensible publishing pipeline. The style covers: web, PDF, print-on-demand, paged web, and ebook.
-
-Publication demo: https://a-machine.github.io/report-demo/
-
-Repo: https://github.com/a-machine/report-demo
-
-Style code: https://github.com/a-machine/appoloosa-report-style
-
-Style issues: https://github.com/orgs/a-machine/projects/1/views/1
-
-v1.0, 2023
-
-![Cover](/cover/cover-small.jpg "Cover")
-
-### Copyright and license
-
-© The Authors.
-
-#### Content and design
+![Cover](/cover/cover.jpg "Cover")
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
@@ -34,34 +14,33 @@ Code by A-Machine is GPLv3 https://www.gnu.org/licenses/gpl-3.0.en.html
 
 Run apps locally https://github.com/a-machine/opd/wiki/Running-Design-Apps-As-Local
 
-Vivliostyle path
+From the command line:
+
+#### Vivliostyle - webbook, PDF generation
+
+`./start-viewer`
 
 http://127.0.0.1:8000/
 
-`/appaloosa-report/report-demo/uhtml/`
-
-Docsify path
+#### Docsify - website
 
 `python -m http.server 3000`
 
-it will serve to http://localhost:3000/
+http://localhost:3000/
 
 #### Color palette
 
-New palette - CMYK as RGB straight conversion - https://coolors.co/ff52a3-0ff5f7-91a97b 
+New palette - CMYK as RGB straight conversion (not working) - https://coolors.co/ff52a3-0ff5f7-91a97b 
 
-Colour palette using colour picker - https://coolors.co/ee717f-00b8ec-ecece6-63c7f1-dad8ce
+Colour palette using colour picker - https://coolors.co/e66d7b-f3dfde-00b8ec-e0f2fd-dde5e6-dad8ce-ecece6
 
-    #FA7268 orange
-    #fab6b2 orange (lighter for blockquote border)
-    #F5F4EF creme grey
-    #aeb6bb grey sidebar-border-color
-    #C9D5DE grey sidebar-background
-    #4D4D4D grey sidebar-nav-link-color--active
-    #56ACF6 blue
-    #9DCEF8 light blue (+table header)
-    #000000 black
-    #EAEFEE grey table line
-    #989898 grey visited link
-    #33333370 text-shadow
+`/* CSS HEX */
+--bright-pink-crayola: #e66d7bff;
+--misty-rose: #f3dfdeff;
+--process-cyan: #00b8ecff;
+--alice-blue: #e0f2fdff;
+--sage: #a5a58aff;
+--timberwolf: #dad8ceff;
+--alabaster: #ecece6ff;`
 
+![Palette](/palette/Create-a-Palette-Coolors.jpg "Palette")
