@@ -6,17 +6,15 @@
 
 ##### Code
 
-Respective open-source licences apply.
-
-Code by A-Machine is GPLv3 https://www.gnu.org/licenses/gpl-3.0.en.html 
+Free and Open Source Software. Respective open-source licences apply. Code by A-Machine is GPLv3 https://www.gnu.org/licenses/gpl-3.0.en.html 
 
 ### Development
 
-Run apps locally https://github.com/a-machine/opd/wiki/Running-Design-Apps-As-Local
+Instructions for running locally for preview and design purposes https://github.com/a-machine/opd/wiki/Running-Design-Apps-As-Local
 
 From the command line:
 
-#### Vivliostyle - webbook, PDF generation
+#### Vivliostyle - PAged Media CSS Typesetting, PDF generation
 
 `./start-viewer`
 
