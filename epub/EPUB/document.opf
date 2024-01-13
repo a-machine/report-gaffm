@@ -2,13 +2,13 @@
 <package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="fidus" xml:lang="en-US" prefix="cc: http://creativecommons.org/ns#">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
     <dc:identifier id="fidus">7</dc:identifier>
-    <dc:title>Report Theme GAFFM - EN</dc:title>
+    <dc:title>Generate Lorem Ipsum placeholder text. Select the number of characters, words, sentences or paragraphs, and hit generate!</dc:title>
     <dc:creator>
-      The Author(s)
+      Author 1; Author 2; Author 3; Author 4
     </dc:creator>
     <dc:language>en-US</dc:language>
-    <meta property="dcterms:modified">2024-01-11T11:31:03Z</meta>
-    <dc:date>2024-01-11</dc:date>
+    <meta property="dcterms:modified">2024-01-13T11:55:17Z</meta>
+    <dc:date>2024-01-13</dc:date>
     <dc:rights>Creative Commons International 4.0</dc:rights>
     <dc:publisher>GAFFM</dc:publisher>
     <dc:subject>report</dc:subject>
@@ -40,7 +40,7 @@
     <item id="font3" href="css/media/FSMe.otf" media-type="font/sfnt" />
     <item id="font4" href="css/media/GAF-Logo-30_CMYK-P709_lachs.png" media-type="font/sfnt" />
     <item id="css0" href="css/document.css" media-type="text/css" />
-    <item id="css1" href="css/bericht-gaffm.css" media-type="text/css" />
+    <item id="css1" href="css/berichte-gaffm-en.css" media-type="text/css" />
     <item id="mathlive-0" href="css/mathlive.css" media-type="text/css" />
     <item id="mathlive-1" href="css/media/KaTeX_SansSerif-Bold.woff" media-type="font/woff" />
     <item id="mathlive-2" href="css/media/KaTeX_Script-Regular.woff2" media-type="font/woff2" />
